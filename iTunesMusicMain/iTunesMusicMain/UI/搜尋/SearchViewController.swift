@@ -32,6 +32,7 @@ class SearchViewController: UIViewController {
         collectionView.dataSource = self
         collectionView.register(UINib(nibName: "iTunesItemCell", bundle: .main), forCellWithReuseIdentifier: iTunesItemCell.id)
         searchTextField.delegate = self
+        searchTextField.returnKeyType = .search
         searchButton.addTarget(self, action: #selector(startSearch), for: .touchUpInside)
         
         let tap = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
@@ -103,5 +104,11 @@ extension SearchViewController: UICollectionViewDelegateFlowLayout {
 extension SearchViewController: UITextFieldDelegate {
     func textFieldDidEndEditing(_ textField: UITextField) {
         viewModel.keyword = textField.text ?? ""
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        startSearch()
+        dismissKeyboard()
+        return true
     }
 }
