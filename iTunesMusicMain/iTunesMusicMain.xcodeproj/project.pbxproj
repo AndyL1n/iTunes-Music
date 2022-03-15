@@ -14,9 +14,20 @@
 		A16327ED27E01F360085CA16 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A16327EC27E01F360085CA16 /* Alamofire */; };
 		A16327F227E01F9B0085CA16 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16327F127E01F9B0085CA16 /* SearchViewController.swift */; };
 		A16327F627E01FD70085CA16 /* UIStoryboard+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16327F527E01FD70085CA16 /* UIStoryboard+extension.swift */; };
-		A16327F927E01FFC0085CA16 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16327F827E01FFC0085CA16 /* Then.swift */; };
 		A16327FC27E021BF0085CA16 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16327FB27E021BF0085CA16 /* SearchViewModel.swift */; };
 		A16327FE27E024850085CA16 /* AError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16327FD27E024850085CA16 /* AError.swift */; };
+		A163280327E0257E0085CA16 /* iTunesItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163280227E0257E0085CA16 /* iTunesItem.swift */; };
+		A163280727E02E610085CA16 /* iTunesItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163280527E02E610085CA16 /* iTunesItemCell.swift */; };
+		A163280827E02E610085CA16 /* iTunesItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A163280627E02E610085CA16 /* iTunesItemCell.xib */; };
+		A163280B27E036850085CA16 /* CodableDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163280A27E036850085CA16 /* CodableDefault.swift */; };
+		A163280E27E039530085CA16 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A163280D27E039530085CA16 /* Kingfisher */; };
+		A163281027E03B8F0085CA16 /* UIFont+extesntion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163280F27E03B8E0085CA16 /* UIFont+extesntion.swift */; };
+		A163281227E03C470085CA16 /* PlaybackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163281127E03C460085CA16 /* PlaybackView.swift */; };
+		A163281427E03C4F0085CA16 /* PlaybackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A163281327E03C4F0085CA16 /* PlaybackView.xib */; };
+		A163281627E045A40085CA16 /* PlayerManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163281527E045A40085CA16 /* PlayerManger.swift */; };
+		A163281827E054BC0085CA16 /* UIView+style.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163281727E054BC0085CA16 /* UIView+style.swift */; };
+		A163281D27E057220085CA16 /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163281C27E057220085CA16 /* MarqueeLabel.swift */; };
+		A163281F27E05FC60085CA16 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = A163281E27E05FC60085CA16 /* Then.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,9 +39,19 @@
 		A16327E527E01EC60085CA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A16327F127E01F9B0085CA16 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		A16327F527E01FD70085CA16 /* UIStoryboard+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+extension.swift"; sourceTree = "<group>"; };
-		A16327F827E01FFC0085CA16 /* Then.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
 		A16327FB27E021BF0085CA16 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		A16327FD27E024850085CA16 /* AError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AError.swift; sourceTree = "<group>"; };
+		A163280227E0257E0085CA16 /* iTunesItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesItem.swift; sourceTree = "<group>"; };
+		A163280527E02E610085CA16 /* iTunesItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesItemCell.swift; sourceTree = "<group>"; };
+		A163280627E02E610085CA16 /* iTunesItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iTunesItemCell.xib; sourceTree = "<group>"; };
+		A163280A27E036850085CA16 /* CodableDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableDefault.swift; sourceTree = "<group>"; };
+		A163280F27E03B8E0085CA16 /* UIFont+extesntion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+extesntion.swift"; sourceTree = "<group>"; };
+		A163281127E03C460085CA16 /* PlaybackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackView.swift; sourceTree = "<group>"; };
+		A163281327E03C4F0085CA16 /* PlaybackView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaybackView.xib; sourceTree = "<group>"; };
+		A163281527E045A40085CA16 /* PlayerManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerManger.swift; sourceTree = "<group>"; };
+		A163281727E054BC0085CA16 /* UIView+style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+style.swift"; sourceTree = "<group>"; };
+		A163281C27E057220085CA16 /* MarqueeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarqueeLabel.swift; sourceTree = "<group>"; };
+		A163281E27E05FC60085CA16 /* Then.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A163280E27E039530085CA16 /* Kingfisher in Frameworks */,
 				A16327ED27E01F360085CA16 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,6 +89,7 @@
 				A16327F027E01F8F0085CA16 /* UI */,
 				A16327F427E01FC20085CA16 /* Extension */,
 				A16327F727E01FF00085CA16 /* External */,
+				A163281927E0563D0085CA16 /* Manager */,
 				A16327D727E01EC20085CA16 /* AppDelegate.swift */,
 				A16327FD27E024850085CA16 /* AError.swift */,
 				A16327DD27E01EC20085CA16 /* Main.storyboard */,
@@ -88,6 +111,8 @@
 		A16327F327E01F9E0085CA16 /* 搜尋 */ = {
 			isa = PBXGroup;
 			children = (
+				A163280427E02E480085CA16 /* View */,
+				A163280127E025390085CA16 /* Model */,
 				A16327FA27E021AE0085CA16 /* ViewModel */,
 				A16327F127E01F9B0085CA16 /* SearchViewController.swift */,
 			);
@@ -98,6 +123,8 @@
 			isa = PBXGroup;
 			children = (
 				A16327F527E01FD70085CA16 /* UIStoryboard+extension.swift */,
+				A163280F27E03B8E0085CA16 /* UIFont+extesntion.swift */,
+				A163281727E054BC0085CA16 /* UIView+style.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -105,7 +132,9 @@
 		A16327F727E01FF00085CA16 /* External */ = {
 			isa = PBXGroup;
 			children = (
-				A16327F827E01FFC0085CA16 /* Then.swift */,
+				A163280A27E036850085CA16 /* CodableDefault.swift */,
+				A163281C27E057220085CA16 /* MarqueeLabel.swift */,
+				A163281E27E05FC60085CA16 /* Then.swift */,
 			);
 			path = External;
 			sourceTree = "<group>";
@@ -116,6 +145,33 @@
 				A16327FB27E021BF0085CA16 /* SearchViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A163280127E025390085CA16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A163280227E0257E0085CA16 /* iTunesItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A163280427E02E480085CA16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A163280527E02E610085CA16 /* iTunesItemCell.swift */,
+				A163280627E02E610085CA16 /* iTunesItemCell.xib */,
+				A163281127E03C460085CA16 /* PlaybackView.swift */,
+				A163281327E03C4F0085CA16 /* PlaybackView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A163281927E0563D0085CA16 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				A163281527E045A40085CA16 /* PlayerManger.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +192,7 @@
 			name = iTunesMusicMain;
 			packageProductDependencies = (
 				A16327EC27E01F360085CA16 /* Alamofire */,
+				A163280D27E039530085CA16 /* Kingfisher */,
 			);
 			productName = iTunesMusicMain;
 			productReference = A16327D427E01EC20085CA16 /* iTunesMusicMain.app */;
@@ -167,6 +224,7 @@
 			mainGroup = A16327CB27E01EC20085CA16;
 			packageReferences = (
 				A16327EB27E01F360085CA16 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				A163280C27E039520085CA16 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = A16327D527E01EC20085CA16 /* Products */;
 			projectDirPath = "";
@@ -184,7 +242,9 @@
 			files = (
 				A16327E427E01EC60085CA16 /* LaunchScreen.storyboard in Resources */,
 				A16327E127E01EC60085CA16 /* Assets.xcassets in Resources */,
+				A163280827E02E610085CA16 /* iTunesItemCell.xib in Resources */,
 				A16327DF27E01EC20085CA16 /* Main.storyboard in Resources */,
+				A163281427E03C4F0085CA16 /* PlaybackView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,12 +255,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A163281827E054BC0085CA16 /* UIView+style.swift in Sources */,
+				A163281227E03C470085CA16 /* PlaybackView.swift in Sources */,
+				A163281D27E057220085CA16 /* MarqueeLabel.swift in Sources */,
 				A16327FE27E024850085CA16 /* AError.swift in Sources */,
-				A16327F927E01FFC0085CA16 /* Then.swift in Sources */,
 				A16327FC27E021BF0085CA16 /* SearchViewModel.swift in Sources */,
+				A163281627E045A40085CA16 /* PlayerManger.swift in Sources */,
+				A163281F27E05FC60085CA16 /* Then.swift in Sources */,
 				A16327F627E01FD70085CA16 /* UIStoryboard+extension.swift in Sources */,
 				A16327F227E01F9B0085CA16 /* SearchViewController.swift in Sources */,
 				A16327D827E01EC20085CA16 /* AppDelegate.swift in Sources */,
+				A163280B27E036850085CA16 /* CodableDefault.swift in Sources */,
+				A163281027E03B8F0085CA16 /* UIFont+extesntion.swift in Sources */,
+				A163280727E02E610085CA16 /* iTunesItemCell.swift in Sources */,
+				A163280327E0257E0085CA16 /* iTunesItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +502,14 @@
 				kind = branch;
 			};
 		};
+		A163280C27E039520085CA16 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -441,6 +517,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A16327EB27E01F360085CA16 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		A163280D27E039530085CA16 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A163280C27E039520085CA16 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
